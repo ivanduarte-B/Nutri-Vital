@@ -10,7 +10,7 @@
     "icons": [
         {
             "src": "./logoNutri.PNG",
-            "type": "image/png",
+            "type": "image/PNG",
             "sizes": "512x512"
         }
     ]
