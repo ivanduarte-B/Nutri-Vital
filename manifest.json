@@ -9,8 +9,8 @@
     "start_url": "./",
     "icons": [
         {
-            "src": "./logoNutri.PNG",
-            "type": "image/PNG",
+            "src": "./piñaa.png",
+            "type": "image/png",
             "sizes": "512x512"
         }
     ]
