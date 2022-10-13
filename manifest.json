@@ -1,17 +1,17 @@
 {
-    "name": "Nutrivital",
+    "nombre": "Nutrivital",
     "short_name": "Nutrivital",
-    "theme_color": "#03152e",
+    "tema_color": "#03152e",
     "background_color": "#03152e",
-    "display": "fullscreen",
-    "orientation": "portrait",
-    "scope": "./",
+    "pantalla": "pantalla completa",
+    "orientación": "retrato",
+    "alcance": "./",
     "start_url": "./",
-    "icons": [
+    "iconos": [
         {
-            "src": "../piñaa.png",
-            "type": "image/png",
-            "sizes": "512x512"
+            "src": "./piñaa.png",
+            "tipo": "imagen/png",
+            "tamaños": "512x512"
         }
     ]
 }
