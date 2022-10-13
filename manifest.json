@@ -9,7 +9,7 @@
     "start_url": "./",
     "icons": [
         {
-            "src": "./piñaa.png",
+            "src": "../piñaa.png",
             "type": "image/png",
             "sizes": "512x512"
         }
