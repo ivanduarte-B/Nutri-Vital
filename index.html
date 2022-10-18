@@ -25,9 +25,7 @@
   <link rel="stylesheet" href="css/responsive.css">  
   <!-- Scrollbar Custom CSS -->
   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-  <!-- Tweaks for older IEs-->
-  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+ 
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -63,10 +61,11 @@
                   <nav class="main-menu ">
                     <ul class="menu-area-main">
                       <li class="active"> <a href="index.html">Inicio</a> </li>
-                      <li> <a href="#about">Calorias</a> </li>
-                      <li> <a href="#vegetable">Recetas</a> </li>
+                      <li> <a href="tablacalorias.html">Alimentos/Kcal</a> </li>
+                      <li> <a href="Recetas.html">Recetas</a> </li>
                       <li> <a href="pagIMC.html">¿Saber mi IMC?</a> </li>
-                      <li> <a href="calDiarias.html">Acerca de</a> </li>
+                      <li> <a href="calDiarias.html">Calculadora</a> </li>
+                      <li> <a href="QuemaCalori.html">Acerca de</a> </li>
                      
                      <li> <a href="#"><img src="icon/icon_b.png" alt="#" /></a></li>
                      </ul>
@@ -425,35 +424,10 @@
           <!-- sidebar -->
           <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
           <script src="js/custom.js"></script>
-          <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+          <script src="js/jquery.fancybox.min.js"></script>
 
 
-          <script>
-// This example adds a marker to indicate the position of Bondi Beach in Sydney,
-// Australia.
-function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 11,
-    center: {
-      lat: 40.645037,
-      lng: -73.880224
-    },
-  });
-
-  var image = 'images/maps-and-flags.png';
-  var beachMarker = new google.maps.Marker({
-    position: {
-      lat: 40.645037,
-      lng: -73.880224
-    },
-    map: map,
-    icon: image
-  });
-}
-</script>
-<!-- google map js -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-<!-- end google map js -->
+          
 
 
 
