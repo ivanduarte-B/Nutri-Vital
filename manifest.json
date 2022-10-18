@@ -9,9 +9,9 @@
     "start_url": "./",
     "icons": [
         {
-            "src": "./images/img2.png",
+            "src": "./img2.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "738x587"
         }
     ]
 }
