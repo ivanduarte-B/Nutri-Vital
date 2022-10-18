@@ -3,14 +3,14 @@
     "short_name": "Nutrivital",
     "tema_color": "#03152e",
     "background_color": "#03152e",
-    "pantalla": "pantalla completa",
-    "orientación": "retrato",
+    "pantalla": "standalone",
+    "orientación": "portrait",
     "alcance": "./",
     "start_url": "./",
     "iconos": [
         {
-            "src": "piñaa.png",
-            "tipo": "imagen/png",
+            "src": "./piñaa.png",
+            "tipo": "image/png",
             "tamaños": "512x512"
         }
     ]
