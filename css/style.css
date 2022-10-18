@@ -17,6 +17,13 @@
  * {
      box-sizing: border-box !important;
 }
+/*DIV DE LA TABLA DE CALORIAS POR ALIMENTO*/
+.general{
+    margin: auto;
+    margin-top: 80px;
+    width: max-content;
+    height:auto;    
+}
  html {
      scroll-behavior: smooth;
 }
